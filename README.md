@@ -6,6 +6,6 @@ Our algorithm is a semi-automated two way messaging system designed for health c
 
 ### Landing Page
 Lorem ip sum.
-![Cair's Landing Page with a welcome title](info/landingPage "Cairrer")
+![Cair's Landing Page with a welcome title](info/landingPage.png "Cairrer")
 
 
