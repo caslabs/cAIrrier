@@ -1,21 +1,38 @@
-# cAIrrier
+<div align="center">
+    <a href="https://cairtext.com"><h1 align="center">cairtext.com</h1></a>
+
+cairtext.com, built with [Node.js](https://nodejs.org/en/), [Firebase Firestore](https://firebase.google.com/docs/firestore), [Twilio](https://www.twilio.com/en-us), and deployed to [Firebase Hosting](https://firebase.google.com/docs/hosting).
+
+</div>
+
+<br/>
+<h2>Because we cair.</h2>
+
 
 cairrier is a HIPAA compliant semi-automated two way messaging system designed for healthcare providers and powered by artificial intelligence.
 
-Our algorithm is a semi-automated two way messaging system designed for health care workers. Our platform implements deep learning to optimize communication with patients. We believe a messaging platform should be trustworthy, intuitive, confidential, and easily customizable to meet the specific needs of your practice. Because we cair.
+Our algorithm is a semi-automated two way messaging system designed for health care workers. Our platform implements deep learning to optimize communication with patients. We believe a messaging platform should be trustworthy, intuitive, confidential, and easily customizable to meet the specific needs of your practice.
 
-[Check our application!](https://cairrier.web.app/)
+## Running Locally
 
-[View our prototype dashboard!](https://cairrier.web.app/adminPages/dashboard.html)
 
-### Landing Page
-![Cair's Landing Page with a welcome title](info/landingPage.png "Cairrer")
+```sh-session
+git clone https://github.com/caslabs/cAIrrier/
+cd cAIrrier
+```
 
-### Sign Up Page
-![Cair's main dashboard for healthcare providers](info/dashboardPage.png "Dashboard")
+### Software Requirements
 
-### Chat Page
-![Cair's main chat page to interact with patients via webapp to SMS ](info/ChatPage.png "Dashboard")
 
-### Email List Page
-![Email List Page to sign up for our application](info/signUpPage.png "Dashboard")
+
+Create a `.env` file for APIs requirements
+```sh-session
+FIREBASE_API_KEY=...
+TWILIO_API=KEY...
+```
+
+Then install dependencies and run the development server:
+```sh-session
+npm install
+npm dev
+```
