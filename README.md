@@ -1,8 +1,10 @@
 <div align="center">
-    <a href="https://cairtext.com"><h1 align="center">cairtext.com</h1></a>
+    <a href="https://cairtext.com"><h1 align="center">cairrier.com</h1></a>
 
-cairtext.com, built with [Node.js](https://nodejs.org/en/), [Firebase Firestore](https://firebase.google.com/docs/firestore), [Twilio](https://www.twilio.com/en-us), and deployed to [Firebase Hosting](https://firebase.google.com/docs/hosting).
+cairrier.com, built with [Node.js](https://nodejs.org/en/), [Firebase Firestore](https://firebase.google.com/docs/firestore), [Twilio](https://www.twilio.com/en-us), and deployed to [Firebase Hosting](https://firebase.google.com/docs/hosting).
 
+Originally Founded @ 2019.
+Kickstarted @ 2023 with the rise of LLMs
 </div>
 
 <br/>
